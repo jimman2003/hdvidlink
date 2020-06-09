@@ -16,4 +16,4 @@ if (location.href.indexOf("embed") !== -1) // NOTE: Don't run on image search
 var video_id=window.location.href.split('/')[3];
 window.location.href=video_id.replace(video_id,"embed-"+video_id)
 })();
-setTimeout(function(){alert(jwplayer("vplayer").getPlaylist()[0].file)},1000)
+setTimeout(function(){alert(jwplayer("vplayer").getPlaylist()[0].file)},500)
